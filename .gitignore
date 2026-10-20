@@ -31,3 +31,17 @@ build/
 
 ### VS Code ###
 .vscode/
+# Local configuration and sensitive files
+.idea-backup/
+.env
+.env.*
+!.env.example
+
+# Logs and generated files
+*.log
+*.class
+
+# Local notes and archives
+yadasht.txt
+*.zip
+pom-backup.xml

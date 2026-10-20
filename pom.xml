@@ -14,7 +14,7 @@
 	<name>CarSharing</name>
 	<description>CarSharing</description>
 	<properties>
-		<java.version>25</java.version>
+		<java.version>21</java.version>
 		<lombok.version>1.18.46</lombok.version>
 	</properties>
 	<dependencies>
@@ -27,19 +27,15 @@
 			<artifactId>spring-boot-starter-webmvc-test</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-amqp</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.fasterxml.jackson.core</groupId>
-			<artifactId>jackson-databind</artifactId>
-		</dependency>
-		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<version>${lombok.version}</version>
 			<scope>provided</scope>
 		</dependency>
+		<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-amqp</artifactId>
+</dependency>
 	</dependencies>
 
 	<build>
